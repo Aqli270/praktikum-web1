@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #610C9F;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid #9400FF;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: #421363;
+    background-color: #9400FF;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.photo-grid-container {
+    display: flex; 
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #E5CFF7;
+    height: 100px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+   background-color: #E95793;
+   flex: initial;
+   width: 300px;
+}
+
+.footer-two {
+    color: #5995DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latar-belakang {
+    background-color: #DA0C81;
+}
+
+ /* CSS untuk tombol */
+ button {
+    padding: 25px 50px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+    align-items: center;
+  }
+
+  /* CSS untuk elemen yang akan diubah */
+  #demo {
+    font-size: 18px;
+  }
+
+  @media (max-width: 768px) {
+    /* Styles untuk layar dengan lebar maksimum 768px */
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Styles untuk layar dengan lebar minimum 1200px */
+    body {
+      font-size: 18px;
+    }
+  }
+
+.centered-button-container {
+  text-align: center;
+}
+
+.centered-button-container button {
+  /* Ganti button dengan kelas atau elemen tombol yang sesuai */
+  display: inline-block;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column; /* Membuat elemen-elemen anak tersusun dalam kolom */
+  align-items: center; /* Centerkan elemen-elemen anak secara horizontal */
+  justify-content: center; /* Centerkan elemen-elemen anak secara vertikal */
+  height: 300px; /* Atur tinggi container sesuai kebutuhan */
+  border: 1px solid #333; /* Untuk melihat batas container */
+  color: #fff;
+}
+
+p {
+  margin: 10px; /* Jarak antara paragraf */
+}
+
